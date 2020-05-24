@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
 class PlaceLocation{
-  final String longitude;
-  final String latitude;
+  final double longitude;
+  final double latitude;
   final String address;
-  PlaceLocation({
+  const PlaceLocation({
     this.latitude,
     this.longitude,
     this.address,
